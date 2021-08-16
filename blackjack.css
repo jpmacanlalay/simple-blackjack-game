@@ -1,0 +1,52 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-image: url('img/bg-img.png'), linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-blend-mode: overlay;
+ color: #fff;
+}
+
+.container{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1{
+  color: gold;
+  font-size: 2em;
+}
+
+#message{
+  font-style: italic;
+}
+
+#start-el{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 20px;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 20px;
+  background: none;
+  margin-bottom: 5px;
+}
+
+#newcard-el{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: gold;
+  border: 2px solid gold;
+  border-radius: 20px;
+  text-decoration: none;
+  outline: none;
+  padding: 10px 20px;
+  background: none;
+}
